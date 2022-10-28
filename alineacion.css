@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color:rgb(235, 232, 232);
+}
+.main__container{
+    background-image:linear-gradient(to bottom, #7DE2FC 0%, #B9B6E5 100%);
+
+}
+.servicios__container{
+    padding: .1px;
+
+}
+.servicios__texts{
+    max-width: 1200px;
+    width: 90%; 
+    margin: auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 30px;
+}
+.servicios__img{ 
+    background-size: cover;
+    border-radius: 10px;
+}
+.servicios__img-1{
+    background-image:url(img/Llantas-de-aleacion.jpg);
+}
+.servicios__img-2{
+    background-image:url(img/alineacion-balanceo980x512.jpg);
+}
+.servicios__title{
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+.servicios__title-1{
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.servicios__title-2{
+    grid-column: span 2;
+}
+.servicios__paragraph{
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin: 15px 80px;
+    text-align: justify;
+}
+.servicios__paragraph-2{
+    grid-column: span 2;
+}
+.servicios__cta{
+    grid-column: span 2;
+    font-size: 1.1rem;
+    background-color: rgb(248, 181, 49);
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin: 30px auto;
+    width: 15%;
+    text-align: center;
+    padding: 16px 16px;
+    border-radius: 30px;
+    font-weight: 500;
+
+
+}
